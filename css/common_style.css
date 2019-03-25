@@ -1,0 +1,136 @@
+.logo{
+    display: flex;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.logo a{
+    width: 20%;
+    margin-top: 0.5%;
+}
+.logo h2{
+    padding: 0 0 0.5% 0;
+    margin: 0;
+}
+.logo img{
+    width: 105%;
+    margin: 0;
+}
+.logo-info{
+    margin: 0.5% 2.5% 0 2.5%;
+    text-align: center;
+    display: block;
+}
+.logo-info h3{
+    color: white;
+}
+.logo-info h3, h2{
+    font-size: 1.6rem;
+}
+body{
+    background: rgb(112, 48, 160);
+}
+.body{
+    background: #7B7D7D;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.navbar{
+    background: rgb(98, 144, 236);
+}
+h1 a, h1 a:hover{
+    color:rgb(25, 25, 25);
+    text-decoration: none;
+}
+.sponsors-media{
+    background: rgba(255, 255, 255, 1);
+}
+.body-info{
+    background: rgb(204, 192, 217);
+}
+.faded-line { 
+    margin: 25px 0;
+    height: 1px;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(204, 192, 217)), to(rgb(204, 192, 217)), color-stop(50%, rgba(0, 0, 0, 0.4)));
+}
+.media{
+    direction: rtl;
+}
+footer{
+    background: white;
+}
+footer p{
+    text-align: center;
+}
+.aval_logo{
+    width: 13%;
+}
+.nav-item{
+    letter-spacing: 0.035em;
+}
+@media screen and (max-width: 1200px){
+    .navbar{
+        font-size: 1em;
+    }
+    .aval_logo{
+        width: 20%;
+    }
+    .logo img{
+        width: 122%;
+    }
+    .logo-info h3, h2{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 992px){
+    .navbar{
+        font-size: 0.91em;
+    }
+    .body{
+        width: 100%;
+        margin: 0;
+    }
+    .logo img{
+        width: 130%;
+    }
+    .logo-info h3, h2{
+        font-size: 1.2rem;
+    }
+    .aval_logo{
+        width: 23%;
+    }
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        font-size: 1em;
+    }
+    .logo img{
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+    .logo-info{
+        float: right;
+    }
+    .logo-info h2{
+        display: none;
+    }
+    .aval_logo{
+        width: 30%;
+    } 
+}
+@media screen and (max-width: 576px){
+    .logo-info{
+        position: relative;
+        left: 10%;
+    }
+    .logo img{
+        width: 145%;
+        margin: 0 0 10% 0;
+    }
+    .body{
+        font-size: 115%;
+    }
+    .aval_logo{
+        width: 40%;
+    } 
+}

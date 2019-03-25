@@ -1,0 +1,42 @@
+h2{
+    padding: 1.5% 0 1% 2%; 
+}
+.text-block{
+    width: 95%;
+    padding: 0.5% 2% 0.5% 3%;
+    text-align: justify;
+}
+.text-block h3{
+    text-align: center;
+    padding-bottom: 1%;
+}
+.text-block p{
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98%;
+}
+.text-block ol{
+    margin-top: 1%; 
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 768px){
+    h2{
+        padding-top: 4%; 
+    }
+
+}
+@media screen and (max-width: 576px){
+    h2{
+        padding: 5% 0 1% 4%;
+    }
+    .text-block{
+        width: 95%;
+        padding: 0.5% 2.5% 0.5% 2.5%;
+        text-align: center;
+    }
+}
