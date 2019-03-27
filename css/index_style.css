@@ -26,7 +26,7 @@ table{
 }
 @media screen and (max-width: 576px){
     table{
-        font-size: 85%;
+        font-size: 75%;
     }
     .text-block{
         width: 95%;
